@@ -2,3 +2,6 @@
 
 tutorial by freecodecamp
 source https://www.youtube.com/watch?v=Yg5zkd9nm6w&t=5897s
+
+TODO
+fix image upload
