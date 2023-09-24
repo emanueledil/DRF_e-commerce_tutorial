@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+from djackets_django.credentials import stripe_key
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,6 +27,8 @@ SECRET_KEY = 'django-insecure-9p@3@$_-d*@mwewmu6r-rz)9eutl@tyh3hurezafeph7djd(n!
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
+STRIPE_SECRET_KEY = stripe_key
 
 
 # Application definition
